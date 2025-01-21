@@ -4,22 +4,24 @@ import { FooterComponent } from './footer/footer.component';
 import { ProdutosComponent } from './produtos/produtos.component';
 import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.component';
 import { DetalhesProdutoComponent } from './produtos/detalhes-produto/detalhes-produto.component';
+import { CarrinhoComponent } from './carrinho/carrinho.component';
+
 
 export const routes: Routes = [
     {
         path: 'header',
         component: HeaderComponent,
-        title: 'Header!'
+        title: 'Header'
     },
     {
         path: 'footer',
         component: FooterComponent,
-        title: 'Footer!'
+        title: 'Footer'
     },
     {
         path: 'produtos',
         component: ProdutosComponent,
-        title: 'Produtos!'
+        title: 'Produtos'
     },
     {
         path: 'produtos/:id',
@@ -27,13 +29,18 @@ export const routes: Routes = [
         title: 'Detalhes do produto'
     },
     {
+        path: 'carrinho',
+        component: CarrinhoComponent,
+        title: 'Carrinho'
+    },
+    {
         path: '',
         component: ProdutosComponent,
-        title: 'Produtos!'
+        title: 'Produtos'
     },
     {
         path: '**',
         component: NaoEncontradaComponent,
-        title: 'Pagina não encontrada!'
+        title: 'Pagina não encontrada'
     }
 ];
