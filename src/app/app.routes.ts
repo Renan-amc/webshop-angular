@@ -5,6 +5,7 @@ import { ProdutosComponent } from './produtos/produtos.component';
 import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.component';
 import { DetalhesProdutoComponent } from './produtos/detalhes-produto/detalhes-produto.component';
 import { CarrinhoComponent } from './carrinho/carrinho.component';
+import { ContatoComponent } from './contato/contato.component';
 
 
 export const routes: Routes = [
@@ -32,6 +33,11 @@ export const routes: Routes = [
         path: 'carrinho',
         component: CarrinhoComponent,
         title: 'Carrinho'
+    },
+    {
+        path: 'contato',
+        component: ContatoComponent,
+        title: 'Contato'
     },
     {
         path: '',
