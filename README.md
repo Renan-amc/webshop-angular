@@ -1,3 +1,7 @@
+# Visualize o projeto 
+
+Copie e cole no seu navegador ou clique aqui [Webshop-angular](https://renan-amc.github.io/webshop-angular/)
+
 # WebshopAngular
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
