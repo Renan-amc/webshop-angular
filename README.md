@@ -1,6 +1,6 @@
 # Visualize o projeto 
 
-Copie e cole no seu navegador ou clique aqui [Webshop-angular](https://renan-amc.github.io/webshop-angular/)
+Copie e cole no seu navegador ou clique aqui [Webshop-angular](https://renan-amc.github.io/webshop-angular-page/)
 
 # WebshopAngular
 
